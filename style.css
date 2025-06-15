@@ -94,8 +94,14 @@ nav ul li a {
   box-sizing: border-box;
 }
 #mode svg{
-  fill: black;
-  display:inline-block
+  fill: white;
+  display:inline-block;
+}
+#mode:hover{
+  background-color: black;
+  border-radius: 25px;
+  transition:0.4s;
+  transform:scale(1.1);
 }
 #mode svg:last-child{
   display: none;
@@ -123,7 +129,6 @@ nav ul li a {
 
 .navbut {
   width:100vw;
-  padding-right: 3vw;
   display: flex;
   list-style: none;
   justify-content:right;
