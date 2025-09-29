@@ -4,7 +4,7 @@ html{
     line-height: 30px;
 }
 body{
-    margin-right: 1%;
+    margin: 0%;
     color:#ecf2f8;
     font-family:'Ubuntu';
     /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/42471064-2114-4f68-9cfe-d23f09301ac7/d35y9h6-158d767b-ef4d-45c4-ba7e-9bdc817850d0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQyNDcxMDY0LTIxMTQtNGY2OC05Y2ZlLWQyM2YwOTMwMWFjN1wvZDM1eTloNi0xNThkNzY3Yi1lZjRkLTQ1YzQtYmE3ZS05YmRjODE3ODUwZDAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.oA2Dk55S7LaGaq-qQP1-FwA8mvy8ukZXKt6N61KIKuo"); */
@@ -35,10 +35,10 @@ h3{
     gap:15px;
 }
 #Hobbies{
+    padding-left: 20px;
     background-color: rgb(78, 78, 78);
     border-radius: 15px;
-    margin:1%;
-    width: 75%;
+    width: 70%;
     height:60%;
 }
 .box:hover{
@@ -46,19 +46,23 @@ h3{
     transition: 0.7s;
 }
 #top{
+    flex-direction: row;
     display:flex;
 }
 #skills{
+    padding-left:20px;
     background-color: rgb(78,78,78);
     border-radius: 15px;
     margin-left: 50px;
     width:25%;
 }
 #socials{
-  display:flex;
-  width:10rem;
-  justify-content: space-between;
-  margin-left: 15px;
+    width: 100%;
+    height: 100%;
+    display:flex;
+    width:10rem;
+    justify-content: space-between;
+    margin-left: 15px;
 }
 .social{
   width: 50px;
@@ -86,7 +90,26 @@ h3{
   min-width: 25vw;
 }
 footer{
+    margin-top: 50px;
+    width: 100%;
+    height: 100%;
     background-color: black;
+}
+@media(max-width:576px){
+    #top{
+        /* width: 90%; */
+        margin-left: 50px;
+        flex-direction: column;
+    }
+    #skills{
+        width: 90%;
+        margin-left: 0px;
+        /* justify-self: center; */
+    }
+    #Hobbies{
+        width: 90%;
+        margin-bottom: 5%;
+    }
 }
 /* .navbar {
     position: relative; 
