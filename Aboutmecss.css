@@ -1,5 +1,5 @@
 html{
-    background-color:#19212e;
+    background-color:#090c11;
     font-size:20px;
     line-height: 30px;
 }
@@ -8,7 +8,6 @@ body{
     color:#ecf2f8;
     font-family:'Ubuntu';
     /* background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/42471064-2114-4f68-9cfe-d23f09301ac7/d35y9h6-158d767b-ef4d-45c4-ba7e-9bdc817850d0.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcLzQyNDcxMDY0LTIxMTQtNGY2OC05Y2ZlLWQyM2YwOTMwMWFjN1wvZDM1eTloNi0xNThkNzY3Yi1lZjRkLTQ1YzQtYmE3ZS05YmRjODE3ODUwZDAuanBnIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.oA2Dk55S7LaGaq-qQP1-FwA8mvy8ukZXKt6N61KIKuo"); */
-    
 }
 li{
     margin:15px;
@@ -21,6 +20,10 @@ h3{
     font-size: 35px;
     margin-top: 15px;
 }
+.about-section{
+    margin-left: 20%;
+    /* justify-self: center; */
+}
 #abt_img{
     width:70px;
     height:70px;
@@ -28,7 +31,10 @@ h3{
 }
 #firstpara{
     padding-top: 15px;
-    padding-bottom: 35px;
+    padding-bottom: 15px;
+    background-color: #2b3951;
+    padding-left: 25px;
+    border-radius: 50px;
 }
 #maincont{
     display:flex;
@@ -36,25 +42,47 @@ h3{
 }
 #Hobbies{
     padding-left: 20px;
-    background-color: rgb(78, 78, 78);
+    background-color: #2b3951;
     border-radius: 15px;
-    width: 70%;
+    width: 95%;
     height:60%;
+    padding-bottom: 15px;
 }
-.box:hover{
-    transform: scale(1.03);
-    transition: 0.7s;
+.box{
+    border-color: #ecf2f8;
+    border-width: 1px;
+    box-shadow: #ecf2f8;
+}
+/* .box:hover{    
+} */
+#container{
+    width:72%;
+    display:flex;
+    flex-direction:column;
+    gap:25px;
 }
 #top{
+    margin-left: 25px;
+    margin-right: 0;
     flex-direction: row;
     display:flex;
 }
 #skills{
     padding-left:20px;
-    background-color: rgb(78,78,78);
+    background-color: #2b3951;
     border-radius: 15px;
-    margin-left: 50px;
     width:25%;
+    padding-bottom: 15px;
+}
+#projects{
+    padding-left: 20px;
+    background-color: #2b3951;
+    border-radius: 15px;
+    width: 95%;
+    height:40%;
+}
+.btn{
+    display: inline;
 }
 #socials{
     width: 100%;
