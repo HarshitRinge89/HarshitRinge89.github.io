@@ -137,17 +137,19 @@ footer{
 }
 @media(max-width:576px){
     #top{
-        /* width: 90%; */
         margin-left: 50px;
         flex-direction: column;
     }
+    #container{
+        width:95%;
+        margin:0;
+    }
     #skills{
+        margin-top: 25px;
         width: 90%;
         margin-left: 0px;
-        /* justify-self: center; */
     }
-    #Hobbies{
-        width: 90%;
+    #about{
         margin-bottom: 5%;
     }
 }
@@ -181,10 +183,3 @@ footer{
     transform: translateY(0);
   }
 }
-/* .navbar {
-    position: relative; 
-    margin: 0; 
-    width: 100%; 
-    background-color: black;
-    padding:10px;
-} */
